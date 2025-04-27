@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  text-align: center;
+}
+
+h1{
+  animation: infinite;
+}
+#main{
+  text-align: center;
+}
+#title{
+  width: 25%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+ #description {
+  width: 45%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#search{
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+button:hover {
+  background-color: #4577a0;
+}
+#mydata {
+  display: grid;
+  box-shadow: black;
+}
+
+#search {
+  width: 300px;
+}
+
+#text:hover {
+  background-color: aqua;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+#text.checked {
+  background-color: lightgreen;
+  padding: 5px;
+  border-radius: 4px;
+  transition: 0.3s;
+  text-decoration: line-through;
+}
+
+
+#lists {
+  display: flex;                    
+  justify-content: space-between;     
+  align-items: center;              
+  margin-bottom: 10px;              
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;              
+}
+#lists .button-container {
+  display: flex;                     /* Align buttons horizontally */
+  justify-content: flex-end;          /* Push buttons to the right */
+  gap: 10px;                          /* Space between buttons */
+}
+
+
+#lists button {
+  background-color: blue; 
+  color: white;            
+  border: none;              
+  padding: 10px 20px;       
+  cursor: pointer;          
+  align-self: center;      
+}
+
+#lists button:hover {
+  background-color: #45a049; 
+}
